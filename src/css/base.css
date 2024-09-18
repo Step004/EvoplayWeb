@@ -11,7 +11,7 @@ body {
   font-weight: normal;
   font-style: normal;
   color: var(--main-color);
-  background-color: var(--bg-color);
+  background-color: #001531;
 }
 
 .visually-hidden {
@@ -27,32 +27,12 @@ body {
   overflow: hidden;
 }
 
-.container {
-  padding-left: 15px;
-  padding-right: 15px;
-}
 
 @media screen and (min-width: 430px) {
   .container {
-    width: 400px;
+    width: 430px;
     margin-right: auto;
     margin-left: auto;
-  }
-}
-
-@media screen and (min-width: 768px) {
-  .container {
-    width: 768px;
-    padding-left: 32px;
-    padding-right: 32px;
-  }
-}
-
-@media screen and (min-width: 1280px) {
-  .container {
-    width: 1280px;
-    padding-left: 100px;
-    padding-right: 100px;
   }
 }
 

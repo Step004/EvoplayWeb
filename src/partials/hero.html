@@ -1,69 +1,102 @@
 <section class="hero">
-  <div class="container hero-container">
-    <div class="hero-title-button">
-      <h1 class="hero-title">
-        Reviving the traditional
-        <span class="hero-title-span">Ukrainian</span> artistry in every stitch.
-      </h1>
-      <div class="hero-container-decor">
-        <svg class="icon-hero" width="52" height="51">
-          <use href="./images/icons.svg#icon-star"></use>
-        </svg>
-        <p class="hero-text">all embroidery is made by hand</p>
+  <div class="hero-container">
+    <div class="hero-title-img-but">
+      <div class="hero-title-img">
+        <h1 class="hero-title">
+          Empowering Your Digital World with Advanced Security Solutions
+        </h1>
+        <p class="hero-text">
+          Discover unparalleled protection with Secure Nexus, your partners in
+          defending against cyber threats and enhancing your operational
+          integrity.
+        </p>
+        <div class="hero-button">
+          <button class="hero-button-learn">Learn More</button>
+          <div class="button-wrapper">
+            <button class="hero-button-started">Get Started</button>
+          </div>
+        </div>
       </div>
-      <div class="hero-link-container">
-        <a class="hero-link" href="#order_section"
-          >order
-          <svg class="icon-hero-link" width="26" height="10">
-            <use href="./images/icons.svg#icon-hero-arrow"></use>
-          </svg>
-        </a>
+      <picture class="image-decor">
+        <!-- Desktop screen -->
+        <source
+          media="(min-width:1440px)"
+          srcset="../img/Group_desktop.png 1x"
+          type="image/jpeg"
+        />
+        <!-- Mobile screen -->
+        <source
+          media="(min-width: 430px)"
+          srcset="../img/Group_mobile.png 1x"
+          type="image/jpeg"
+        />
+        <img class="hero-image" src="../img/Group_mobile.png" alt="security" />
+      </picture>
+
+      <div class="hero-buttons">
+        <button class="hero-button-learn">Learn More</button>
+        <div class="button-wrapper">
+          <button class="hero-button-started">Get Started</button>
+        </div>
       </div>
     </div>
-    <img
-      class="image-decor"
-      src="./images/Hero/imageUkraine.png"
-      alt="Ukrainian traditional decor"
-      width="157"
-      height="191"
-      srcset="
-        ./images/Hero/imageUkraine.png,
-        ./images/Hero/imageUkraine@2x.png 2x
-      "
-    />
-    <picture>
-      <!-- Desktop screen -->
-      <source
-        media="(min-width:1280px)"
-        srcset="
-          ./images/Hero/girldesktop.jpg    1x,
-          ./images/Hero/girldesktop@2x.jpg 2x
-        "
-        type="image/jpg"
-      />
-      <!-- Tablet screen -->
-      <source
-        media="(min-width:768px)"
-        srcset="
-          ./images/Hero/girltablet.jpg    1x,
-          ./images/Hero/girltablet@2x.jpg 2x
-        "
-        type="image/jpg"
-      />
-      <!-- Mobile screen -->
-      <source
-        media="(max-width: 767px)"
-        srcset="
-          ./images/Hero/girlmobile.jpg    1x,
-          ./images/Hero/girlmobile@2x.jpg 2x
-        "
-        type="image/jpg"
-      />
-      <img
-        class="hero-image"
-        src="./images/Hero/girlmobile.jpg"
-        alt="girl in Ukrainian national clothes"
-      />
-    </picture>
+    <ul class="hero-list-card">
+      <li class="hero-list-card-item">
+        <div class="circle"></div>
+        <div class="card-content">
+          <h3>Comprehensive Security Audit</h3>
+        </div>
+      </li>
+      <li class="hero-list-card-item">
+        <div class="circle"></div>
+        <div class="card-content">
+          <h3>Real-Time Threat Monitoring</h3>
+        </div>
+      </li>
+      <li class="hero-list-card-item">
+        <div class="circle"></div>
+        <div class="card-content">
+          <h3>Cutting-Edge Cyber Defense Technologies</h3>
+        </div>
+      </li>
+    </ul>
   </div>
+  <ul class="hero-list-card-stats">
+    <li class="hero-list-card-stats-item">
+      <div class="hero-circle" style="background-color: #4171c4">
+        <svg width="50" height="46">
+          <use href="/img/icons.svg#icon-koshik"></use>
+        </svg>
+      </div>
+      <p class="hero-first-text">4K+</p>
+      <p class="hero-second-text">Cyber Security Project</p>
+    </li>
+    <li class="hero-list-card-stats-item">
+      <div class="hero-circle" style="background-color: #6ccc3e">
+        <svg width="40" height="50">
+          <use href="/img/icons.svg#icon-test"></use>
+        </svg>
+      </div>
+      <p class="hero-first-text">100k+</p>
+      <p class="hero-second-text">Customer Globally</p>
+    </li>
+    <li class="hero-list-card-stats-item">
+      <div class="hero-circle" style="background-color: #e5333d">
+        <svg width="56" height="57">
+          <use href="/img/icons.svg#icon-test"></use>
+        </svg>
+      </div>
+      <p class="hero-first-text">350+</p>
+      <p class="hero-second-text">Cyber Security Expert</p>
+    </li>
+    <li class="hero-list-card-stats-item">
+      <div class="hero-circle" style="background-color: #8555c1">
+        <svg width="50" height="58">
+          <use href="/img/icons.svg#icon-chek-test"></use>
+        </svg>
+      </div>
+      <p class="hero-first-text">100%</p>
+      <p class="hero-second-text">Client Retention Rate</p>
+    </li>
+  </ul>
 </section>

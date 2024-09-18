@@ -1,6 +1,8 @@
 :root {
-  --main-color: #fcf9f9;
+  --main-color: white;
   --secondary-color: #ecd979;
   --tertiary-color: rgba(252, 249, 249, 0.4);
   --bg-color: #1c2225;
+  --font-family: "Mashetic", sans-serif;
+  --second-family: "Poppins", sans-serif;
 }

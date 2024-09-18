@@ -1,1 +1,172 @@
-body{background-color: blue;}
+.hero-container {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.hero-title {
+    font-weight: 400;
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 14px;
+}
+
+.hero-text {
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 63px;
+}
+
+.hero-image {
+    margin-bottom: 62.98px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.hero-buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 39px;
+    margin-bottom: 78px;
+}
+
+.button-wrapper {
+    background: linear-gradient(90deg, #3b34a1 0%, #e1400f 100%);
+    padding: 3px;
+    display: inline-block;
+}
+
+.hero-button-started {
+    width: 286px;
+    height: 67px;
+    background: none;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+    color: #fff;
+    border: none;
+    background-color: #001531;
+}
+
+.hero-button-learn {
+    width: 292px;
+    height: 73px;
+    background: linear-gradient(90deg, #3b34a1 0%, #e1400f 100%);
+    border: none;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+    color: #fff;
+}
+
+.hero-list-card {
+    display: flex;
+    flex-direction: column;
+    gap: 104px;
+    align-items: center;
+    margin-bottom: 102px;
+}
+
+.hero-list-card-item {
+    border-radius: 15px;
+    width: 334px;
+    height: 228px;
+    background: rgba(59, 52, 160, 0.27);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.circle {
+    width: 134px;
+    height: 134px;
+    background-color: #f46c1d;
+    border-radius: 100%;
+    position: absolute;
+    top: -42px;
+}
+
+.card-content h3 {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+    color: #fff;
+}
+
+.card-content {
+    position: absolute;
+    bottom: 38px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    padding: 0 24px;
+}
+
+.hero-list-card-stats {
+    background: rgba(59, 52, 160, 0.27);
+    width: 100%;
+    padding: 99px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 58px;
+}
+
+.hero-circle {
+    width: 88px;
+    height: 88px;
+    border-radius: 100%;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 17px;
+}
+
+.hero-list-card-stats-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero-first-text {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 38px;
+    text-align: center;
+    color: #e1400f;
+}
+
+.hero-second-text {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+    color: #fff;
+}
+.hero-button{
+    display: none;
+}
+
+@media screen and (min-width: 1440px) {
+    .hero-buttons {
+        display: none;
+    }
+
+    .hero-button {
+        display: flex;
+        align-items: center;
+        gap: 39px;
+    }
+        .hero-title-img-but{
+            display: flex;
+        }
+}
