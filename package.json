@@ -5,13 +5,13 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/evoplayweb/",
+    "build": "vite build --base=/EvoplayWeb/",
     "preview": "vite preview"
   },
   "devDependencies": {
     "vite": "^5.4.1"
   },
-  "author": "Stepan Filep",
+  "author": "Stepan Filep <stepanfilep3@gmail.com>",
   "license": "ISC",
   "dependencies": {
     "glob": "^11.0.0",
