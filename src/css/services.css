@@ -110,20 +110,19 @@
 
 .learn-more {
     display: inline-block;
-    color: #f36e21;
-    font-size: 16px;
+    font-size: 18px;
     text-decoration: none;
     font-weight: bold;
     transition: color 0.3s ease;
+    color: #e1400f;
 }
 
-.learn-more span {
-    font-size: 20px;
-    margin-left: 5px;
-}
 
 .learn-more:hover {
     color: #ff8a42;
+}
+.icon-learn{
+    margin-left: 11px;
 }
 
 @media screen and (min-width: 1440px) {
