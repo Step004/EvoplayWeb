@@ -11,7 +11,7 @@
 
 .footer-title {
     font-family: var(--font-family);
-    font-weight: 400;
+    font-weight: 600;
     font-size: 38px;
     color: #df3d0f;
     margin-bottom: 119px;
@@ -23,6 +23,16 @@
     font-size: 28px;
     color: #fff;
     margin-bottom: 60px;
+    text-align: center;
+}
+
+.footer-company {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 28px;
+    color: #fff;
+    margin-bottom: 60px;
+    text-align: start;
 }
 
 .footer-menu-list {
@@ -49,6 +59,8 @@
 .footer-menu-list-information {
     width: 321px;
     margin-bottom: 198px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .footer-phone {
@@ -80,4 +92,79 @@
     color: #fff;
     margin-top: 28px;
     margin-bottom: 364px;
+}
+
+.footer-careers-links {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 330px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media screen and (min-width: 1440px) {
+    .footer-container {
+        padding: 96px 83px 72px 91px;
+        display: flex;
+        align-items: start;
+    }
+
+    .footer-title {
+        margin-bottom: 69px;
+    }
+
+    .footer-desctop-container {
+        display: flex;
+        gap: 97px;
+        margin-bottom: 208px;
+    }
+
+    .footer-quick-links {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
+
+    .footer-legal-links {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
+
+    .footer-menu-list {
+        align-items: start;
+        margin-bottom: 0
+    }
+
+    .footer-careers-links {
+        width: 330px;
+        margin-bottom: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+    }
+
+    .footer-descr {
+        font-family: var(--second-family);
+        font-weight: 600;
+        font-size: 18px;
+        text-align: start;
+        color: #fff;
+        margin-top: 28px;
+        margin-bottom: 0;
+    }
+
+    .footer-secure {
+
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .footer-menu-list-information {
+        margin-bottom: 0;
+
+    }
 }
