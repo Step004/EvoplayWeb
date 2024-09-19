@@ -1,0 +1,127 @@
+.container-section-about {
+    box-sizing: content-box;
+    padding-left: 15px;
+    padding-right: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 130px;
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.about-button-read {
+    width: 199px;
+    height: 52px;
+    background: linear-gradient(90deg, #3b34a1 0%, #e1400f 100%);
+    border: none;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+    color: #fff;
+}
+
+.about-image-container-between {
+    border-radius: 35px;
+    width: 399px;
+    height: 355px;
+    background: #f77307;
+    margin-top: 49px;
+    margin-bottom: 49px;
+}
+
+.title-about-us {
+    margin-bottom: 11px;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 28px;
+    text-align: center;
+    color: #fff;
+}
+
+.section-about-us-p-1 {
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    color: #fff;
+}
+
+.section-about-us-p-2 {
+    margin-bottom: 42px;
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    color: #fff;
+}
+
+.about-image-container-after {
+    display: none;
+}
+
+@media screen and (min-width: 1440px) {
+    .container-section-about {
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+        margin: 0;
+        padding: 0;
+        max-width: 628px;
+    }
+
+    .container-about {
+        display: flex;
+        gap: 109px;
+        flex-direction: row-reverse;
+        justify-content: center;
+        padding-left: 91px;
+        padding-right: 97px;
+        margin-bottom: 130px;
+    }
+
+    .about-image-container-between {
+        display: none;
+    }
+
+    .about-image-container-after {
+        display: block;
+        border-radius: 35px;
+        width: 515px;
+        height: 457px;
+        background: #f77307;
+        margin: 0;
+
+    }
+
+    .title-about-us,
+    .section-about-us-p-1,
+    .section-about-us-p-2 {
+        text-align: left;
+    }
+
+    .title-about-us {
+        font-size: 38px;
+        line-height: 1.5;
+        margin: 0;
+    }
+
+    .section-about-us-p-1,
+    .section-about-us-p-2 {
+        
+        line-height: 1.5;
+    }
+
+    .section-about-us-p-1 {
+        font-size: 24px;
+        margin-bottom: 23px;
+    }
+
+    .section-about-us-p-2 {
+        font-size: 18px;
+        margin-bottom: 23px;
+    }
+}
