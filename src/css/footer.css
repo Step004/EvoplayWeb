@@ -19,7 +19,7 @@
 
 .footer-Links {
     font-family: var(--font-family);
-    font-weight: 400;
+    font-weight: 600;
     font-size: 28px;
     color: #fff;
     margin-bottom: 60px;
@@ -28,11 +28,18 @@
 
 .footer-company {
     font-family: var(--font-family);
-    font-weight: 400;
+    font-weight: 600;
     font-size: 28px;
     color: #fff;
     margin-bottom: 60px;
     text-align: start;
+}
+
+.footer-menu-list-link {
+    font-family: var(--second-family);
+    font-weight: 600;
+    font-size: 18px;
+    color: #fff;
 }
 
 .footer-menu-list {

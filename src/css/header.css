@@ -27,7 +27,7 @@
 
 .header-navigation-button {
     font-family: var(--font-family);
-    font-weight: 400;
+    font-weight: 600;
     font-size: 12px;
     color: #fff;
     width: 143px;
@@ -90,18 +90,20 @@
 
     .header-logo {
         font-size: 26px;
+        font-weight: 600;
     }
-        .mobile-menu {
-            display: none;
-        }
-    
-        .menu-btn {
-            display: none;
-        }
-    
-        .menu-nav-list {
-            display: none;
-        }
+
+    .mobile-menu {
+        display: none;
+    }
+
+    .menu-btn {
+        display: none;
+    }
+
+    .menu-nav-list {
+        display: none;
+    }
 
 }
 
