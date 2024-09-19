@@ -77,25 +77,23 @@
         display: flex;
         gap: 109px;
         flex-direction: row-reverse;
-        justify-content: center;
+        justify-content: end;
         padding-left: 91px;
         padding-right: 97px;
         padding-bottom: 108px;
+        position: relative;
     }
 
     .about-image-container-between {
-        display: none;
-    }
-
-    .about-image-container-after {
-        display: block;
+        position: absolute;
+        right: 833px;
         border-radius: 35px;
         width: 515px;
         height: 457px;
         background: #f77307;
         margin: 0;
-
     }
+
 
     .title-about-us,
     .section-about-us-p-1,
