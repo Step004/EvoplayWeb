@@ -6,7 +6,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-bottom: 130px;
+    padding-bottom: 130px;
     max-width: 400px;
     margin-left: auto;
     margin-right: auto;
@@ -80,7 +80,7 @@
         justify-content: center;
         padding-left: 91px;
         padding-right: 97px;
-        margin-bottom: 130px;
+        padding-bottom: 108px;
     }
 
     .about-image-container-between {
@@ -105,13 +105,15 @@
 
     .title-about-us {
         font-size: 38px;
-        line-height: 1.5;
+        line-height: 1.6;
+        font-weight: 600;
+        height: 120px;
         margin: 0;
     }
 
     .section-about-us-p-1,
     .section-about-us-p-2 {
-        
+
         line-height: 1.5;
     }
 
