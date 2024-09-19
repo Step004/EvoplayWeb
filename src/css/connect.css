@@ -59,6 +59,12 @@
     border: none;
     padding: 16px 17px 16px 23px;
     color: #fff;
+    transition: box-shadow 0.3s, background-color 0.3s;
+}
+
+.form-name:hover {
+    background-color: #313e76;
+    box-shadow: 0 4px 10px rgba(255, 255, 255, 0.2);
 }
 
 .form-email {
@@ -68,6 +74,12 @@
     border: none;
     padding: 16px 17px 16px 23px;
     color: #fff;
+    transition: box-shadow 0.3s, background-color 0.3s;
+}
+
+.form-email:hover {
+    background-color: #313e76;
+    box-shadow: 0 4px 10px rgba(255, 255, 255, 0.2);
 }
 
 .form-message {
@@ -78,6 +90,12 @@
     padding: 16px 17px 16px 23px;
     color: #fff;
     resize: none;
+    transition: box-shadow 0.3s, background-color 0.3s;
+}
+
+.form-message:hover {
+    background-color: #313e76;
+    box-shadow: 0 4px 10px rgba(255, 255, 255, 0.2);
 }
 
 .form-button {

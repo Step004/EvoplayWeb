@@ -12,6 +12,18 @@
     padding: 0 15px 0 16px;
 }
 
+a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s, box-shadow 0.3s;
+}
+
+a:hover {
+    color: #2980b9;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+
 .header-navigation {
     display: flex;
     flex-direction: column;
@@ -34,6 +46,10 @@
     height: 35px;
     background: linear-gradient(90deg, #3b34a1 0%, #e1400f 100%);
     border: none;
+}
+
+button:hover {
+    color: #2980b9;
 }
 
 .header-logo {
